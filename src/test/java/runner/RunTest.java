@@ -3,8 +3,6 @@ package runner;
 import cucumber.api.CucumberOptions;
 import cucumber.api.testng.AbstractTestNGCucumberTests;
 
-//@RunWith(Cucumber.class)
-
 @CucumberOptions(plugin = {"pretty", "html:target/cucumber-reports/cucumber-pretty",
         "json:target/cucumber-reports/CucumberTestReport.json",
         "rerun:target/cucumber-reports/rerun.txt",
@@ -13,7 +11,6 @@ import cucumber.api.testng.AbstractTestNGCucumberTests;
         features = "src/test/resources/features",
         dryRun = false,
         tags = {"@Regression"},
-
         monochrome = true)
 public class RunTest extends AbstractTestNGCucumberTests {
 
