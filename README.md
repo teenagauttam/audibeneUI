@@ -87,7 +87,7 @@ git@github.com:teenagauttam/audibeneUI.git
 
 2. Go to source folder in local machine
 
-Automation Demo
+audibeneUI
 
 3. Run " mvn test " command in source folder " audibeneUI " from your maven or git bash
 mvn test
