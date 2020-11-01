@@ -1,1 +1,92 @@
-2020-11-01 22:12:13 [common.AttachHooks] INFO :: Inside set up method of before hook
+2020-11-01 22:45:37 [common.AttachHooks] INFO :: Inside set up method of before hook
+2020-11-01 22:45:37 [common.AttachHooks] INFO :: Our browser will be invoked here
+2020-11-01 22:45:41 [common.AttachHooks] INFO :: Browser Opened
+2020-11-01 22:45:42 [page.LoginPage] INFO :: entering the URL
+2020-11-01 22:45:43 [page.LoginPage] INFO :: URL is entered successfully
+2020-11-01 22:45:43 [stepDefinition.LoginStepDef] INFO :: URL entered Successfully
+2020-11-01 22:45:44 [page.DynamicPage] INFO :: Input field is disabled
+2020-11-01 22:45:44 [page.DynamicPage] INFO :: Button Name is Enable
+2020-11-01 22:45:44 [stepDefinition.DynamicStepDef] INFO :: Enable is clicked successfully
+2020-11-01 22:45:47 [page.DynamicPage] INFO :: Success message is verified successfully for Enable
+2020-11-01 22:45:47 [stepDefinition.DynamicStepDef] INFO :: Message is verified successfully
+2020-11-01 22:45:47 [page.DynamicPage] INFO :: Input value is entered successfully
+2020-11-01 22:45:47 [stepDefinition.DynamicStepDef] INFO :: Input is entered
+2020-11-01 22:45:47 [page.DynamicPage] INFO :: Input field is enabled
+2020-11-01 22:45:47 [page.DynamicPage] INFO :: Button Name is Disable
+2020-11-01 22:45:47 [stepDefinition.DynamicStepDef] INFO :: Disable is clicked successfully
+2020-11-01 22:45:50 [page.DynamicPage] INFO :: Success message is verified successfully for Disable
+2020-11-01 22:45:50 [stepDefinition.DynamicStepDef] INFO :: Message is verified successfully
+2020-11-01 22:45:50 [page.DynamicPage] INFO :: Input value is matched successfully as Test
+2020-11-01 22:45:50 [stepDefinition.DynamicStepDef] INFO :: String is verified
+2020-11-01 22:45:51 [common.AttachHooks] INFO :: Inside set up method of before hook
+2020-11-01 22:45:51 [common.AttachHooks] INFO :: Our browser will be invoked here
+2020-11-01 22:45:52 [common.AttachHooks] INFO :: Browser Opened
+2020-11-01 22:45:52 [page.LoginPage] INFO :: entering the URL
+2020-11-01 22:45:54 [page.LoginPage] INFO :: URL is entered successfully
+2020-11-01 22:45:54 [stepDefinition.LoginStepDef] INFO :: URL entered Successfully
+2020-11-01 22:45:54 [stepDefinition.ExitStepDef] INFO :: Mouse is moved
+2020-11-01 22:45:54 [stepDefinition.ExitStepDef] INFO :: Close button is clicked
+2020-11-01 22:45:54 [common.AttachHooks] INFO :: Inside set up method of before hook
+2020-11-01 22:45:54 [common.AttachHooks] INFO :: Our browser will be invoked here
+2020-11-01 22:45:56 [common.AttachHooks] INFO :: Browser Opened
+2020-11-01 22:45:56 [page.LoginPage] INFO :: entering the URL
+2020-11-01 22:45:58 [page.LoginPage] INFO :: URL is entered successfully
+2020-11-01 22:45:58 [stepDefinition.LoginStepDef] INFO :: URL entered Successfully
+2020-11-01 22:45:58 [page.LoginPage] INFO :: Login page is verified successfully
+2020-11-01 22:45:58 [stepDefinition.LoginStepDef] INFO :: Login page is verified Successfully
+2020-11-01 22:45:58 [page.LoginPage] INFO :: Valid User name and password are entered successfully
+2020-11-01 22:45:58 [stepDefinition.LoginStepDef] INFO :: Login credentials entered
+2020-11-01 22:45:58 [page.LoginPage] INFO :: Login button is clicked successfully
+2020-11-01 22:45:58 [stepDefinition.LoginStepDef] INFO :: Login button is clicked
+2020-11-01 22:45:59 [page.LoginPage] INFO :: Success message is verified successfully
+2020-11-01 22:45:59 [stepDefinition.LoginStepDef] INFO :: Message is verified
+2020-11-01 22:45:59 [page.LoginPage] INFO :: Logout button is clicked successfully
+2020-11-01 22:45:59 [page.LoginPage] INFO :: Message is verified successfully
+2020-11-01 22:45:59 [stepDefinition.LoginStepDef] INFO :: logout is clicked
+2020-11-01 22:45:59 [common.AttachHooks] INFO :: Inside set up method of before hook
+2020-11-01 22:45:59 [common.AttachHooks] INFO :: Our browser will be invoked here
+2020-11-01 22:46:01 [common.AttachHooks] INFO :: Browser Opened
+2020-11-01 22:46:01 [page.LoginPage] INFO :: entering the URL
+2020-11-01 22:46:03 [page.LoginPage] INFO :: URL is entered successfully
+2020-11-01 22:46:03 [stepDefinition.LoginStepDef] INFO :: URL entered Successfully
+2020-11-01 22:46:03 [page.LoginPage] INFO :: Login page is verified successfully
+2020-11-01 22:46:03 [stepDefinition.LoginStepDef] INFO :: Login page is verified Successfully
+2020-11-01 22:46:03 [page.LoginPage] INFO :: Invalid User name and password are entered successfully
+2020-11-01 22:46:03 [stepDefinition.LoginStepDef] INFO :: Login credentials entered
+2020-11-01 22:46:04 [page.LoginPage] INFO :: Login button is clicked successfully
+2020-11-01 22:46:04 [stepDefinition.LoginStepDef] INFO :: Login button is clicked
+2020-11-01 22:46:04 [page.LoginPage] INFO :: Error message is verified successfully
+2020-11-01 22:46:04 [stepDefinition.LoginStepDef] INFO :: Message is verified
+2020-11-01 22:46:14 [page.LoginPage] INFO :: Logout button is not available because user was invalid
+2020-11-01 22:46:14 [stepDefinition.LoginStepDef] INFO :: logout is clicked
+2020-11-01 22:46:14 [common.AttachHooks] INFO :: Inside set up method of before hook
+2020-11-01 22:46:14 [common.AttachHooks] INFO :: Our browser will be invoked here
+2020-11-01 22:46:16 [common.AttachHooks] INFO :: Browser Opened
+2020-11-01 22:46:16 [page.LoginPage] INFO :: entering the URL
+2020-11-01 22:46:18 [page.LoginPage] INFO :: URL is entered successfully
+2020-11-01 22:46:18 [stepDefinition.LoginStepDef] INFO :: URL entered Successfully
+2020-11-01 22:46:18 [page.TablePage] INFO :: Table one length is 4
+2020-11-01 22:46:18 [page.TablePage] INFO :: Table two length is 4
+2020-11-01 22:46:18 [stepDefinition.TableStepDef] INFO :: Length is set in data bean
+2020-11-01 22:46:18 [page.TablePage] INFO :: Last name is clicked successfully for table 1
+2020-11-01 22:46:18 [stepDefinition.TableStepDef] INFO :: Last name is clicked
+2020-11-01 22:46:18 [page.TablePage] INFO :: Table Last name are added in the list as [Bach, Conway, Doe, Smith]
+2020-11-01 22:46:18 [page.TablePage] INFO :: Names are in ascending order
+2020-11-01 22:46:18 [page.TablePage] INFO :: List is sorted
+2020-11-01 22:46:18 [stepDefinition.TableStepDef] INFO :: Order is verified
+2020-11-01 22:46:18 [page.TablePage] INFO :: First name is clicked successfully for table 2
+2020-11-01 22:46:18 [stepDefinition.TableStepDef] INFO :: First name is clicked
+2020-11-01 22:46:18 [page.TablePage] INFO :: Table First name are added in the list as [Bach, Doe, Smith, Conway]
+2020-11-01 22:46:18 [page.TablePage] INFO :: Names are in ascending order
+2020-11-01 22:46:18 [page.TablePage] INFO :: List is sorted
+2020-11-01 22:46:18 [stepDefinition.TableStepDef] INFO :: Order is verified
+2020-11-01 22:46:18 [common.AttachHooks] INFO :: Inside set up method of before hook
+2020-11-01 22:46:18 [common.AttachHooks] INFO :: Our browser will be invoked here
+2020-11-01 22:46:20 [common.AttachHooks] INFO :: Browser Opened
+2020-11-01 22:46:20 [page.LoginPage] INFO :: entering the URL
+2020-11-01 22:46:22 [page.LoginPage] INFO :: URL is entered successfully
+2020-11-01 22:46:22 [stepDefinition.LoginStepDef] INFO :: URL entered Successfully
+2020-11-01 22:46:22 [page.WindowPage] INFO :: Click here button is clicked successfully 
+2020-11-01 22:46:22 [stepDefinition.WindowStepDef] INFO :: Click here button is clicked
+2020-11-01 22:46:22 [page.WindowPage] INFO :: New window is verified successfully
+2020-11-01 22:46:22 [stepDefinition.WindowStepDef] INFO :: New window is verified
