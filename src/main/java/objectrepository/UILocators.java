@@ -26,7 +26,7 @@ public class UILocators {
     public static final By lastName = By.xpath("//*[@id='table1']/thead/tr/th[1]/span");
 
     // First Name on table page
-    public static final By firstName = By.xpath("//*[@id='table1']/thead/tr/th[2]/span");
+    public static final By firstName = By.xpath("//*[@id='table2']/thead/tr/th[2]/span");
 
     // Table 1 on table page
     public static final By tableOne = By.xpath("//*[@id='table1']/tbody/tr");

@@ -1,1 +1,19 @@
-2020-11-01 22:12:13 [common.AttachHooks] INFO :: Inside set up method of before hook
+2020-11-01 22:56:19 [common.AttachHooks] INFO :: Inside set up method of before hook
+2020-11-01 22:56:19 [common.AttachHooks] INFO :: Our browser will be invoked here
+2020-11-01 22:56:23 [common.AttachHooks] INFO :: Browser Opened
+2020-11-01 22:56:23 [page.LoginPage] INFO :: entering the URL
+2020-11-01 22:56:25 [page.LoginPage] INFO :: URL is entered successfully
+2020-11-01 22:56:25 [stepDefinition.LoginStepDef] INFO :: URL entered Successfully
+2020-11-01 22:56:25 [page.TablePage] INFO :: Table one length is 4
+2020-11-01 22:56:25 [page.TablePage] INFO :: Table two length is 4
+2020-11-01 22:56:25 [stepDefinition.TableStepDef] INFO :: Length is set in data bean
+2020-11-01 22:56:25 [page.TablePage] INFO :: Last name is clicked successfully for table 1
+2020-11-01 22:56:25 [stepDefinition.TableStepDef] INFO :: Last name is clicked
+2020-11-01 22:56:25 [page.TablePage] INFO :: Table Last name are added in the list as [Bach, Conway, Doe, Smith]
+2020-11-01 22:56:30 [page.TablePage] INFO :: Names are in ascending order
+2020-11-01 22:56:31 [page.TablePage] INFO :: List is sorted
+2020-11-01 22:56:31 [stepDefinition.TableStepDef] INFO :: Order is verified
+2020-11-01 22:56:34 [page.TablePage] INFO :: First name is clicked successfully for table 2
+2020-11-01 22:56:34 [stepDefinition.TableStepDef] INFO :: First name is clicked
+2020-11-01 22:56:47 [page.TablePage] INFO :: Table First name are added in the list as [John, Frank, Jason, Tim]
+2020-11-01 22:57:19 [page.TablePage] ERROR:: First Names are not sorted successfully

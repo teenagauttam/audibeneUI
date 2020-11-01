@@ -27,7 +27,7 @@ public class TablePage extends BasePage {
                 List<WebElement> tableOne = driver.findElements(UILocators.tableOne);
                 DataBean.setTableOneLength(tableOne.size());
 
-                List<WebElement> tableTwo = driver.findElements(UILocators.tableOne);
+                List<WebElement> tableTwo = driver.findElements(UILocators.tableTwo);
                 DataBean.setTableTwoLength(tableTwo.size());
 
                 LOGGER.info("Table one length is " + DataBean.getTableOneLength());
@@ -35,9 +35,9 @@ public class TablePage extends BasePage {
                 return true;
             }
         } catch (Exception e) {
-            LOGGER.error("Name is not clicked successfully " + e.getMessage());
+            LOGGER.error("Table length is not fetched successfully " + e.getMessage());
         }
-        LOGGER.error("Name is not clicked successfully");
+        LOGGER.error("Table length is not fetched successfully");
         return false;
     }
 
@@ -102,11 +102,11 @@ public class TablePage extends BasePage {
         try {
             List<String> result = new ArrayList<>();
             for (int i = 1; i <= DataBean.getTableTwoLength(); i++) {
-                result.add(driver.findElement(By.xpath("//*[@id='table2']/tbody/tr[" + i + "]/td[1]")).getText());
+                result.add(driver.findElement(By.xpath("//*[@id='table2']/tbody/tr[" + i + "]/td[2]")).getText());
             }
             DataBean.setTableTwoNames(result);
             LOGGER.info("Table First name are added in the list as "+DataBean.getTableTwoNames());
-            if (checkAscendingOrder(DataBean.getTableOneNames()) || checkDescendingOrder(DataBean.getTableOneNames())) {
+            if (checkAscendingOrder(DataBean.getTableTwoNames()) || checkDescendingOrder(DataBean.getTableTwoNames())) {
                 LOGGER.info("List is sorted");
                 return true;
             }

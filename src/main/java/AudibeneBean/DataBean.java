@@ -30,9 +30,9 @@ public class DataBean {
         return tableTwoNames;
     }
 
-    public static void setTableOneLength(int contractName) {
+    public static void setTableOneLength(int oneLength) {
 
-        tableOneLength = contractName;
+        tableOneLength = oneLength;
     }
 
     public static int getTableOneLength() {
@@ -40,9 +40,9 @@ public class DataBean {
         return tableOneLength;
     }
 
-    public static void setTableTwoLength(int contractName) {
+    public static void setTableTwoLength(int twoLength) {
 
-        tableTwoLength = contractName;
+        tableTwoLength = twoLength;
     }
 
     public static int getTableTwoLength() {
