@@ -3,8 +3,10 @@ package common;
 import cucumber.api.Scenario;
 import cucumber.api.java.After;
 import cucumber.api.java.Before;
+import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -35,9 +37,19 @@ public class AttachHooks {
             LOGGER.info("Our browser will be invoked here");
 
             System.setProperty("webdriver.chrome.driver", "webdriver/bin/chromedriver");
+
+            // Please comment below code for headless browser
             capabilities = DesiredCapabilities.chrome();
             driver = new ChromeDriver(capabilities);
             driver.manage().window().fullscreen();
+
+            // Please uncomment below code for headless browser
+//            ChromeOptions chromeOptions = new ChromeOptions();
+//            chromeOptions.addArguments("--headless");
+//            chromeOptions.addArguments("disable-gpu");
+//            chromeOptions.addArguments("--test-type", "--ignore-certificate-errors");
+//            driver = new ChromeDriver(chromeOptions);
+//            driver.manage().window().setSize(new Dimension(1200, 1100));
 
 
         } else if (ConfigManager.getProperty("browserName").equalsIgnoreCase("chrome") &&
